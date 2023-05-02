@@ -1,0 +1,173 @@
+body{
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: blanchedalmond;
+    border-radius: 25px;
+}
+a:link{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    margin: 5px;
+}
+a:visited{
+    color: brown;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(73, 130, 16);
+    background-color: transparent;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    margin: 25px auto;
+    padding: 0;
+}
+nav img{
+    width: 10%;
+}
+.container .box {
+    width:100vh;
+    margin:10px;
+    height: 100vh;
+    display:table-row;
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+    min-height: 100vh;
+}
+.container .box .box-row {
+    display:table-row;
+}
+.container .box .box-cell {
+    display:table-cell;
+    width:33%;
+}
+.container .box .box-cell.box1 {
+    text-align:justify;
+    float: left;
+
+}
+.container .box .box-cell.box2 {
+    text-align:justify;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:20px;
+
+}
+footer{
+    background-color: blanchedalmond;
+    display: flex;justify-content: center;
+    height: 100px;
+}
+#footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+div{
+    width: 100vh;
+    height: auto;
+}
+div img{
+    position: relative;
+    border-radius: 25px;
+    float: left;
+}
+div div p{
+    display: flex;
+    float: right;
+    padding-left: 50px;
+    height: auto;
+}
+p{
+ position: static;
+ z-index: 1;
+ margin-left: 60px;
+ overflow-wrap: break-word;
+}
+button{
+position: absolute;
+background-color: blanchedalmond;
+border-radius: 5px;
+border-color: brown;
+}
+#textbox{
+    height: auto;
+    right: 35px;
+}
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 180px;
+    height: auto;
+} 
+  div.gallery img {
+    width: 100%;
+    height: auto;
+}
+.hi{
+    background-color: blanchedalmond; 
+    border-radius: 25px;
+}
+textarea{
+   background-color: blanchedalmond; 
+}
+ul{
+    font-weight: bold;
+}
+/* for real project */
+.textR{
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 20px;
+    position: relative;
+    left: 5%;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 15px;
+    border-color: brown;
+    border-style: double;
+    background-color: burlywood;
+    
+}
+.textL{
+    width: 500px;
+    height: auto;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 20px;
+    position: relative;
+    left: 30%;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 15px;
+    border-color: brown;
+    border-style: double;
+    background-color: burlywood;
+}
+.a{
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+}
